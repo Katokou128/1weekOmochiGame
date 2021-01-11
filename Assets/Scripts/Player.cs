@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rbody;
     float direction = 0f; //プレイヤーが移動する向き
     public float moveSpeed = 3f; //プレイヤーの移動スピード
+    public float jump = 3f;
 
     void Start()
     {
@@ -30,6 +31,13 @@ public class Player : MonoBehaviour
         {
             direction = -moveSpeed;
             //Debug.Log("左移動");
+        }
+
+        // ジャンプする時
+        if (Input.GetKeyDown(KeyCode.Space) && rbody.velocity.y == 0)
+        {
+            rbody.AddForce(transform.up * jump);
+            //Debug.Log("ジャンプ");
         }
 
 
