@@ -24,7 +24,10 @@ public class Kine : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //ぶつかったら逆へ移動する
-        moveSpeed = -moveSpeed;
+        if(collision.gameObject.name != player)
+        {
+            moveSpeed = -moveSpeed;
+        }
 
         //移動している方向の向きに画像を合わせる
         if (moveSpeed > 0)
