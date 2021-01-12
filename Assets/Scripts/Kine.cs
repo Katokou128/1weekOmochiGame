@@ -7,40 +7,45 @@ public class Kine : MonoBehaviour
 {
     // 敵キャラ（きね）のスクリプト
 
+    Animator animator;
     Rigidbody2D rbody;
-    public float moveSpeed = -3;
-    public string player;
+    public float moveSpeed = -3;　// 移動スピード
+    public string player;        // プレイヤーの設定
 
     void Start()
     {
-        rbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>(); // Animatorの取得
+        rbody = GetComponent<Rigidbody2D>(); // Rigidbody2Dの取得
     }
 
     void Update()
     {
-        rbody.velocity = new Vector2(moveSpeed, 0);
+        rbody.velocity = new Vector2(moveSpeed, 0); // 移動の処理
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //ぶつかったら逆へ移動する
+        // ぶつかったら逆へ移動する
         if(collision.gameObject.name != player)
         {
             moveSpeed = -moveSpeed;
         }
 
-        //移動している方向の向きに画像を合わせる
+        // 移動している方向の向きに画像を合わせる
         if (moveSpeed > 0)
         {
-            transform.localScale = new Vector3(-0.25f, 0.25f, 1);
+            transform.localScale = new Vector3(-0.3f, 0.3f, 1); // 逆を向く
+            animator.SetTrigger("MoveChangeTrigger"); // アニメーターの変更
         }
         else
         {
-            transform.localScale = new Vector3(0.25f, 0.25f, 1);
+            transform.localScale = new Vector3(0.3f, 0.3f, 1); // 逆を向く
+            animator.SetTrigger("MoveChangeTrigger"); // アニメーターの変更
+
         }
 
         // プレイヤーとぶつかったらシーン移動
-        if(collision.gameObject.name == player)
+        if (collision.gameObject.name == player)
         {
             SceneManager.LoadScene("GameOverScene");
         }
