@@ -48,4 +48,14 @@ public class Player : MonoBehaviour
         //プレイヤーを動かす処理
         rbody.velocity = new Vector2(direction, rbody.velocity.y);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Mochis")
+        {
+            //Debug.Log("おもち");
+            Destroy(collision.gameObject);
+        }
+
+    }
 }
