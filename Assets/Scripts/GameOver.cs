@@ -11,6 +11,15 @@ public class GameOver : MonoBehaviour
     // リトライボタンを押したとき
     public void OnClickRetryButton()
     {
+        SoundGameOver.instance.PlaySE(SoundGameOver.SE.Button);
         SceneManager.LoadScene("MainScene");
+    }
+
+    // タイトルボタンを押したとき
+    public void OnClickTitleButton()
+    {
+        SoundGameOver.instance.PlaySE(SoundGameOver.SE.Button);
+        Debug.Log("タイトルシーンへ");
+        //SceneManager.LoadScene("");
     }
 }
