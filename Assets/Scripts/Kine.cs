@@ -9,6 +9,8 @@ public class Kine : MonoBehaviour
 
     Animator animator;
     Rigidbody2D rbody;
+    AudioSource audioSource;
+
     public float moveSpeed = -3;　// 移動スピード
     public string player;        // プレイヤーの設定
 
@@ -16,6 +18,7 @@ public class Kine : MonoBehaviour
     {
         animator = GetComponent<Animator>(); // Animatorの取得
         rbody = GetComponent<Rigidbody2D>(); // Rigidbody2Dの取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -47,7 +50,13 @@ public class Kine : MonoBehaviour
         // プレイヤーとぶつかったらシーン移動
         if (collision.gameObject.name == player)
         {
-            SceneManager.LoadScene("GameOverScene");
+            audioSource.Play();
+            Invoke("SceneChange", 0.1f);
         }
+    }
+
+    void SceneChange()
+    {
+        SceneManager.LoadScene("GameOverScene");
     }
 }
