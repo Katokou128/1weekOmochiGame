@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     Rigidbody2D rbody;
     AudioSource audioSource;
+    Animator animator;
 
     public AudioClip jumpSE;
     public AudioClip getSE;
@@ -18,12 +19,14 @@ public class Player : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         // 動いていない時
         direction = 0f;
+
 
         // 右に移動する時
         if (Input.GetKey(KeyCode.RightArrow))
@@ -43,6 +46,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && rbody.velocity.y == 0)
         {
             rbody.AddForce(transform.up * jump);
+            animator.SetTrigger("JumpTrigger");
             audioSource.PlayOneShot(jumpSE);
             //Debug.Log("ジャンプ");
         }

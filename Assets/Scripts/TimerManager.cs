@@ -23,7 +23,7 @@ public class TimerManager : MonoBehaviour
 
         if (timer < 0)
         {
-            SceneManager.LoadScene("GameOverScene");
+            SceneManager.LoadScene("TimeUpScene");
         }
 
     }
