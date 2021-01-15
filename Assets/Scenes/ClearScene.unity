@@ -2752,7 +2752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30BF\u30A4\u30C8\u30EB\u3078"
+  m_Text: TITLE
 --- !u!222 &1952255587
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2860,7 +2860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3082\u30461\u56DE"
+  m_Text: RETRY
 --- !u!222 &2010031162
 CanvasRenderer:
   m_ObjectHideFlags: 0
