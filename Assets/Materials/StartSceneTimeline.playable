@@ -2314,106 +2314,6 @@ MonoBehaviour:
   endLocation:
     exposedName: 8581b9a007d464e2bb5b0b024a0b64b4
     defaultValue: {fileID: 0}
---- !u!114 &-4982852210333475883
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f28fb04ff66f85e40af453230799042c, type: 3}
-  m_Name: TransformTweenClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    startLocation: {fileID: 0}
-    endLocation: {fileID: 0}
-    tweenPosition: 1
-    tweenRotation: 1
-    tweenType: 0
-    customCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    startingPosition: {x: 0, y: 0, z: 0}
-    startingRotation: {x: 0, y: 0, z: 0, w: 1}
-  startLocation:
-    exposedName: a08a6f77e62c54a79a1ee91538122524
-    defaultValue: {fileID: 0}
-  endLocation:
-    exposedName: 551d15d0733084dcb8af43f379c23dd7
-    defaultValue: {fileID: 0}
---- !u!114 &-4641297887625761408
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f28fb04ff66f85e40af453230799042c, type: 3}
-  m_Name: TransformTweenClip(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    startLocation: {fileID: 0}
-    endLocation: {fileID: 0}
-    tweenPosition: 1
-    tweenRotation: 1
-    tweenType: 0
-    customCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    startingPosition: {x: 0, y: 0, z: 0}
-    startingRotation: {x: 0, y: 0, z: 0, w: 1}
-  startLocation:
-    exposedName: aec1a7f0966d14487ad310832de029ac
-    defaultValue: {fileID: 0}
-  endLocation:
-    exposedName: 42fbbb630079241a3936464c2acb7b5a
-    defaultValue: {fileID: 0}
 --- !u!114 &-4386258274824360460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3267,28 +3167,6 @@ MonoBehaviour:
   endLocation:
     exposedName: 9dc663c16127e4c63848b4c1d719f490
     defaultValue: {fileID: 0}
---- !u!114 &-1514924949937142385
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: c619e2f619827450bbe6f4d14d77ebd2, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-555484177626208089
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4791,6 +4669,28 @@ MonoBehaviour:
   endLocation:
     exposedName: 1f71a6392d836427b95f7ca479193bad
     defaultValue: {fileID: 0}
+--- !u!114 &1015713273394175102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: d5bd51f8698c94457b350fea34f00a6d, type: 2}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1219728034551992032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5492,14 +5392,14 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0
+    m_PostExtrapolationTime: 0.08333333333333331
     m_PreExtrapolationTime: 0
     m_DisplayName: NurikabeJumpAnimation
   - m_Version: 1
-    m_Start: 0.2833333333333333
+    m_Start: 0.36666666666666664
     m_ClipIn: 0.38736263736263743
     m_Asset: {fileID: -5227700660325532518}
-    m_Duration: 0.11263736263736257
+    m_Duration: 0.23333333333333328
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4669761061680983585}
     m_EaseInDuration: 0
@@ -5561,11 +5461,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0.3373626373626374
+    m_PostExtrapolationTime: 0.2500000000000001
     m_PreExtrapolationTime: 0
     m_DisplayName: Walk Animation
   - m_Version: 1
-    m_Start: 0.7333333333333333
+    m_Start: 0.85
     m_ClipIn: 0.07743589743589746
     m_Asset: {fileID: -7755113406613772100}
     m_Duration: 0.2833333333333333
@@ -5594,40 +5494,7 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0.40000000000000124
-    m_PreExtrapolationTime: 0
-    m_DisplayName: NurikabeJumpAnimation
-  - m_Version: 1
-    m_Start: 1.4166666666666679
-    m_ClipIn: 0.07743589743589746
-    m_Asset: {fileID: -1514924949937142385}
-    m_Duration: 0.2833333333333333
-    m_TimeScale: 0.4
-    m_ParentTrack: {fileID: 4669761061680983585}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 1
-    m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0.1333333333333322
+    m_PostExtrapolationTime: 0.18333333333333335
     m_PreExtrapolationTime: 0
     m_DisplayName: NurikabeJumpAnimation
   - m_Version: 1
@@ -5943,6 +5810,39 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Walk Animation
+  - m_Version: 1
+    m_Start: 1.3166666666666667
+    m_ClipIn: 0.38736263736263743
+    m_Asset: {fileID: 1015713273394175102}
+    m_Duration: 0.23333333333333328
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4669761061680983585}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 1
+    m_PreExtrapolationMode: 1
+    m_PostExtrapolationTime: 0.28333333333333344
     m_PreExtrapolationTime: 0
     m_DisplayName: Walk Animation
   m_Markers:
@@ -7773,10 +7673,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Player1
   - m_Version: 1
-    m_Start: 0.4
+    m_Start: 0.5166666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -7170893873157065133}
-    m_Duration: 0.21666666666666667
+    m_Duration: 0.33333333333333337
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5923207038323953033}
     m_EaseInDuration: 0
@@ -7842,10 +7742,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Player1 (1)
   - m_Version: 1
-    m_Start: 0.7333333333333333
+    m_Start: 0.85
     m_ClipIn: 0
     m_Asset: {fileID: 750408360315567503}
-    m_Duration: 0.21666666666666679
+    m_Duration: 0.4
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5923207038323953033}
     m_EaseInDuration: 0
@@ -7897,126 +7797,6 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Player1 (1)
-  - m_Version: 1
-    m_Start: 1.0666666666666667
-    m_ClipIn: 0
-    m_Asset: {fileID: -4641297887625761408}
-    m_Duration: 0.2333333333333334
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 5923207038323953033}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Player1 (1)
-  - m_Version: 1
-    m_Start: 1.4166666666666679
-    m_ClipIn: 0
-    m_Asset: {fileID: -4982852210333475883}
-    m_Duration: 0.19999999999999973
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 5923207038323953033}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
