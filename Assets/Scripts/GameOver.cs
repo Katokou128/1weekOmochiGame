@@ -19,7 +19,7 @@ public class GameOver : MonoBehaviour
     public void OnClickTitleButton()
     {
         SoundGameOver.instance.PlaySE(SoundGameOver.SE.Button);
-        Debug.Log("タイトルシーンへ");
-        //SceneManager.LoadScene("");
+        //Debug.Log("タイトルシーンへ");
+        SceneManager.LoadScene("StartScene");
     }
 }
