@@ -32,7 +32,7 @@ public class PointManager : MonoBehaviour
         if(clearPoint >= 16)
         {
             Debug.Log("クリア！");
-            //SceneManager.LoadScene("Clear");
+            SceneManager.LoadScene("ClearScene");
         }
         
     }
